@@ -1,0 +1,44 @@
+.PortfolioPage {
+  text-align: top;
+}
+
+.PortfolioHeader {
+  background-color: rgb(249, 249, 249);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.PageTitle {
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  height: 70%;
+  border-radius: 10px;
+  margin: -10px;
+}
+.PortfolioHeader .textHeader {
+  text-align: center;
+  color: black;
+  font-size: 22px;
+  width: 884px;
+}
+
+.PageTitle h1 {
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.ListPhotos {
+  padding-left: 10px;
+  padding-right: 10px;
+}
